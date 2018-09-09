@@ -1,0 +1,82 @@
+.nav_button{
+    alignment: center;
+    color: maroon;
+    border: 2px solid #565656;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin:  15px;
+    background-color: rgba(255,255,255,0.5);
+
+    font: bold 14px Tahoma;
+     /*get the all reset of space to this element*/ /*the number replasent the presentagfe that use to replace*/
+    height: 160px;
+    text-align: center;
+    border-radius: 5px;
+    width:150px;
+    -webkit-transition: background-color 0.2s,color 0.2s,box-shadow 0.2s;
+    -webkit-flex: 1;
+    text-decoration: none;
+    text-underline: none;
+}
+.nav_button:hover{
+
+    box-shadow: black 0px 0px 5px;
+    background-color: rgba(255,255,255,0.8);
+    font: bold 14px Tahoma;
+    color: black;
+
+
+
+}
+.cont{
+
+    alignment: center;
+
+    display:-webkit-box; /*display as the webkit box*/
+    -webkit-box-orient: horizontal; /*display elemets as side by side*/
+    -webkit-box-align:center ; /*vertically center the elements*/
+    border: none;
+    -webkit-box-pack:center;
+    padding: 5px;
+    text-decoration: none;
+}
+.nav_button img{
+    width: 140px;
+    height: 140px;
+    margin:auto;
+
+
+}
+
+.header{
+    width: 100%;
+    text-align: center;
+    color: Black;
+    font-weight: bold;
+    font-family: Calibri;
+    font-size: 25px;
+}
+#custb {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#custb td, #custb th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#custb tr:nth-child(even){background-color: #f2f2f2;}
+
+#custb tr:hover {background-color: #ddd;}
+
+#custb th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}

@@ -1,0 +1,79 @@
+#home_cont{
+    margin: auto;
+    width: 1300px; height:auto ;
+    background-color: #F6F6F6;
+    box-shadow: #565656 0px 0px 10px;
+    border-radius: 10px;
+    padding:10px;
+}
+#header1{
+    width:auto;
+    height: auto;
+}
+#banner1{
+    width:auto;
+    height: auto;
+
+}
+.cont2{
+    width:auto;
+    height: auto;
+
+}
+.footer{
+
+    width: 100%;
+    text-align: center;
+    color: Black;
+    padding: 10px 10px;
+    margin: 8px 0;
+
+
+
+    font-weight: bold;
+}
+
+.nav{
+    alignment: center;
+
+    display:-webkit-box; /*display as the webkit box*/
+    -webkit-box-orient: horizontal; /*display elemets as side by side*/
+    -webkit-box-align:center ; /*vertically center the elements*/
+    border: none;
+    -webkit-box-pack:center;
+    padding: 5px;
+    text-decoration: none;
+}
+ .nav_item {
+     alignment: center;
+     color: maroon;
+     border: 2px solid #565656;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     padding-left: 20px;
+     padding-right: 20px;
+     margin:  5px;
+     background-color: rgba(255,255,255,0.5);
+
+     font: bold 14px Tahoma;
+     /*get the all reset of space to this element*/ /*the number replasent the presentagfe that use to replace*/
+     height: 20px;
+     text-align: center;
+     border-radius: 5px;
+     width:80px;
+     -webkit-transition: background-color 0.2s,box-shadow 0.2s;
+     -webkit-flex: 1;
+     text-decoration: none;
+     text-underline: none;
+
+}
+ .nav_item:hover {
+     box-shadow: black 0px 0px 5px;
+     background-color: rgba(255,255,255,0.8);
+     font: bold 14px Tahoma;
+
+
+}
+hr{
+    box-shadow: #565656 0px 1px 1px;
+}
